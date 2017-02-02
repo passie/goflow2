@@ -1,0 +1,134 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #282D33;
+    color: #8b9095;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.slick-slide {
+    display: block;
+}
+
+.wrapper {
+    width: 920px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.wrapper2 {
+    width: 200px;
+    text-align: center;
+}
+
+.card_wrapper {
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin: 10px 10px 10px 100px;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+}
+
+.devices_unit-name {
+    font-size: 26px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.device_type {
+    color: #F6901A;
+}
+
+.device_description {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.device_footer {
+    color: white;
+    font-weight: 700;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.device_footer .one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+}
+
+.device_footer sup {
+    position: absolute;
+    bottom: 4px;
+    font-size: 45%;
+    margin-left: 2px;
+}
+
+.device_footer .stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.device_footer .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.device_footer .no-border {
+    border-right: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.device_options {
+    background: #EC9B3B;
+}
+
+.device_options .one-third {
+    border-right: 1px solid #BD7C2F;
+}
+
+.one_third {
+    border-right: 1px solid #BD7C2F;
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+}
+
+.no-border {
+    border-right: none;
+}
+
+.stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
